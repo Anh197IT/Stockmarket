@@ -1,0 +1,34 @@
+{
+  "stocks": [
+    {
+      "id": "3",
+      "name": "Last Stock Company",
+      "code": "LSC",
+      "price": 225,
+      "previousPrice": "765",
+      "exchange": "NYSE",
+      "favorite": "false"
+    },
+    {
+      "id": "18f4cb29de143d7f10042bc9",
+      "name": "Third Stock Companys",
+      "code": "TSC",
+      "price": 4,
+      "previousPrice": 4,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "0",
+      "name": "Nghia",
+      "code": "48",
+      "price": 66,
+      "previousPrice": 66,
+      "exchange": "NYSE",
+      "favorite": true
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

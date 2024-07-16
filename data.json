@@ -1,0 +1,25 @@
+{
+  "stocks": [
+    {
+      "id": 0,
+      "name": "iuafelsefa",
+      "code": "ăetwgr",
+      "price": 7,
+      "previousPrice": 7,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": 0,
+      "name": "market",
+      "code": "12345",
+      "price": 0,
+      "previousPrice": 0,
+      "exchange": "OTHER",
+      "favorite": false
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

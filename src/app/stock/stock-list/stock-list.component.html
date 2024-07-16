@@ -1,0 +1,70 @@
+<div class="item-stock" *ngFor="let stock of stocks">
+    <app-stock-item [stock]="stock"></app-stock-item>
+    <!-- <br><button (click)="deleteStock(stock)">Delete</button>
+    <button (click)="updateStock(stock)">Update</button>
+    <button (click)="viewDetails(stock)">Details</button> -->
+        
+</div>
+<!-- <div class="details" *ngIf="selectedStock">
+
+    <br><button (click)="deleteStock(stock)">Delete</button>
+    <button (click)="updateStock(stock)">Update</button>
+    <button (click)="viewDetails(stock)">Details</button> 
+</div> -->
+<!-- <div class="details" *ngIf="selectedStock">
+>>>>>>> Stashed changes
+    <h2>Stock Details</h2>
+    <p>Name: {{ selectedStock.name }}</p>
+    <p>Code: {{ selectedStock.code }}</p>
+    <p>Price: {{ selectedStock.price }}</p>
+    <p>Previous Price: {{ selectedStock.previousPrice }}</p>
+</div>
+<div class="update" *ngIf="selectedStockForUpdate">
+    <h2>Update Stock</h2>
+    <form (ngSubmit)="update()">
+        <div class="stock-name">
+            Name<input type="text" placeholder="Stock Name" required
+            name="stockName" #stockName="ngModel"
+            [(ngModel)]="selectedStockForUpdate.name">     
+        </div>
+        <div *ngIf="stockName.errors && stockName.errors['required']">
+            Stock Name is Mandatory
+        </div>
+        <div class="stock-code">
+            Code<input type="text" placeholder="Stock Code" required minlength="2"
+            name="stockCode" #stockCode="ngModel" [(ngModel)]="selectedStockForUpdate.code">          
+        </div>
+        <div *ngIf="stockCode.dirty && stockCode.invalid">
+            <div *ngIf="stockCode.errors?.['required']">
+                Stock Code is Mandatory
+            </div>
+            <div *ngIf="stockCode.errors?.['minlength']">
+                Stock Code must be atleast of length 2
+            </div>
+        </div>
+
+        <div class="stock-price">
+            Price<input type="number" placeholder="Stock Price" required
+                #stockPrice="ngModel" [(ngModel)]="selectedStockForUpdate.price"
+                name="stockPrice">          
+        </div>
+        <div *ngIf="stockPrice.dirty && stockPrice.invalid">
+            <div *ngIf="stockPrice.errors?.['required']">
+                Stock Price is Mandatory
+            </div>
+        </div>
+        <div class="stock-price">
+            Previous Price<input type="number" placeholder="Stock PreviousPrice" required
+                #stockPrice="ngModel" [(ngModel)]="selectedStockForUpdate.previousPrice"
+                name="stockPreviousPrice">          
+        </div>
+        <div *ngIf="stockPrice.dirty && stockPrice.invalid">
+            <div *ngIf="stockPrice.errors?.['required']">
+                Stock Price is Mandatory
+            </div>
+        </div>
+        <button type="submit">Update</button>
+      </form>
+</div>
+
+</div> -->
